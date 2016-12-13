@@ -20,7 +20,7 @@ public class DashboardController {
     @Produces({
             "application/json"
     })
-    public DashboardConfig getDashboard(@QueryParam("user ") User user){
+    public DashboardConfig getDashboard(@QueryParam("user") User user){
         return new DashboardConfig();
     }
 }

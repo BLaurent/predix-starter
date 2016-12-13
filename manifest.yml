@@ -7,6 +7,9 @@ applications:
     path: target/predix-starter-0.0.1-SNAPSHOT.jar
     services:
       - uaa-lab
-env:
-  uaaClientId: rest-client
-  uaaClientSecret: rest-client
+      - timeseries-lab
+    env:
+      uaaClientId: rest_client
+      uaaClientSecret: rest_client
+      clientIngest: timeseries-ingestion-service
+      clientQuery: timeseries-ingestion-service

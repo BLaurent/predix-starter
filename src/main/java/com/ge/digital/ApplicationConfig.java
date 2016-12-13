@@ -1,6 +1,7 @@
 package com.ge.digital;
 
 import com.ge.digital.services.DashboardController;
+import com.ge.digital.services.DataIngester;
 import org.apache.cxf.bus.spring.SpringBus;
 import org.apache.cxf.endpoint.Server;
 import org.apache.cxf.jaxrs.JAXRSServerFactoryBean;
@@ -13,6 +14,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
+import java.util.Arrays;
 
 @Configuration
 @EnableAutoConfiguration
@@ -22,6 +24,9 @@ public class ApplicationConfig {
     @Autowired
     private DashboardController dashboardController;
 
+    @Autowired
+    private DataIngester dataIngester;
+
     @Bean(destroyMethod = "shutdown")
     public SpringBus cxf() {
         return new SpringBus();
@@ -30,7 +35,7 @@ public class ApplicationConfig {
     @Bean(destroyMethod = "destroy")
     public Server jaxRsServer() {
         final JAXRSServerFactoryBean factory = new JAXRSServerFactoryBean();
-        factory.setServiceBean(dashboardController);
+        factory.setServiceBeans(Arrays.asList(dashboardController, dataIngester));
         factory.setProvider(new JacksonJsonProvider());
         factory.setBus(cxf());
         factory.setAddress("/");

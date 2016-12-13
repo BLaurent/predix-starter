@@ -10,6 +10,8 @@ public class DashboardConfig {
     }
 
     public DashboardConfig() {
+
+        defaultConfig = "POUET";
     }
 
     private String defaultConfig;

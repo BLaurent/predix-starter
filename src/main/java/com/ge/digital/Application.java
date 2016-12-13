@@ -1,7 +1,6 @@
 package com.ge.digital;
 
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
@@ -13,9 +12,9 @@ import java.util.Arrays;
 /**
  * Created by benoitlaurent on 12/12/16.
  */
+@Slf4j
 @SpringBootApplication
 public class Application {
-    private static final Logger log = LoggerFactory.getLogger(Application.class);
 
     public static void main(String[] args) {
         ConfigurableApplicationContext ctx = SpringApplication.run(Application.class, args);

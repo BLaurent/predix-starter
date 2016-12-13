@@ -1,7 +1,7 @@
 package com.ge.digital.config;
 
 import com.ge.predix.uaa.token.lib.FastTokenServices;
-import lombok.extern.java.Log;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
@@ -18,7 +18,7 @@ import org.springframework.security.web.authentication.preauth.AbstractPreAuthen
  * Created by benoitlaurent on 13/12/16.
  */
 @Configuration
-@Log
+@Slf4j
 public class SecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Override

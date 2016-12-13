@@ -11,7 +11,7 @@ import com.ge.predix.timeseries.model.builder.IngestionTag;
 import com.ge.predix.timeseries.model.datapoints.DataPoint;
 import com.ge.predix.timeseries.model.datapoints.Quality;
 import com.ge.predix.timeseries.model.response.IngestionResponse;
-import lombok.extern.log4j.Log4j;
+import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.stereotype.Service;
@@ -32,7 +32,7 @@ import java.util.UUID;
  */
 @Service
 @Path("ingest")
-@Log4j
+@Slf4j
 public class DataIngester {
 
     @Autowired

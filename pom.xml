@@ -46,27 +46,6 @@
             <version>${org.codehaus.jackson.version}</version>
             <scope>compile</scope>
         </dependency>
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-oauth2</artifactId>
-            <version>${spring-cloud-starter-oauth2.version}</version>
-        </dependency>
-
-        <dependency>
-            <groupId>com.ge.predix</groupId>
-            <artifactId>uaa-token-lib</artifactId>
-            <version>${uaa-token-lib.version}</version>
-            <exclusions>
-                <exclusion>
-                    <artifactId>slf4j-bl12</artifactId>
-                    <groupId>org.slf4j</groupId>
-                </exclusion>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-log4j12</artifactId>
-                </exclusion>
-            </exclusions>
-        </dependency>
 
     </dependencies>
 

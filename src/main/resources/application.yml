@@ -1,39 +1,5 @@
-security:
-  oauth2:
-    client:
-      accessTokenUri: ${vcap.services.uaa-lab.credentials.issuerId}
-      clientId: ${uaaClientId}
-      clientSecret: ${uaaClientSecret}
-
-uaa:
-  tokenservices:
-    storeClaims: true
-    trustedIssuerIdsRegex: ^${vcap.services.uaa-lab.credentials.issuerId}$
-
-auth:
-  server:
-    clientId: ${uaaClientId}
-    clientSecret: ${uaaClientSecret}
-    checkTokenEndpointUrl: ${vcap.services.uaa-lab.credentials.uri}/check_token
 
 ---
-security:
-  oauth2:
-    client:
-      accessTokenUri: https://lab-bl.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
-      clientId: rest-client
-      clientSecret: rest-client
-
-uaa:
-  tokenservices:
-    storeClaims: true
-    trustedIssuerIdsRegex: https://lab-bl.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token
-
-auth:
-  server:
-    clientId: rest-client
-    clientSecret: rest-client
-    checkTokenEndpointUrl: https://lab-bl.predix-uaa.run.aws-usw02-pr.ice.predix.io/check_token
 
 spring:
   profiles:

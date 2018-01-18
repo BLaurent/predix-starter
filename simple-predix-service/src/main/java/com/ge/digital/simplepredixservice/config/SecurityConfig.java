@@ -7,9 +7,9 @@ import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
-import org.springframework.security.config.annotation.web.configuration.WebSecurityConfigurerAdapter;
 import org.springframework.security.config.http.SessionCreationPolicy;
 import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
+import org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfigurerAdapter;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationManager;
 import org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter;
 import org.springframework.security.oauth2.provider.error.OAuth2AccessDeniedHandler;
@@ -20,14 +20,14 @@ import org.springframework.security.web.authentication.preauth.AbstractPreAuthen
 @Configuration
 @EnableResourceServer
 @Profile("security")
-public class SecurityConfig extends WebSecurityConfigurerAdapter {
+public class SecurityConfig extends ResourceServerConfigurerAdapter {
 
     public void configure(WebSecurity web) throws Exception {
         web.ignoring().antMatchers("/api/api-docs").antMatchers("/api/swagger**");
     }
 
     @Override
-    protected void configure(HttpSecurity http) throws Exception {
+    public void configure(HttpSecurity http) throws Exception {
         http
                 .csrf().disable()
                 .exceptionHandling()

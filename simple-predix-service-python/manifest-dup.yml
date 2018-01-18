@@ -1,0 +1,12 @@
+name: simple-predix-service-python
+random-route: true
+timeout: 160
+memory: 256M
+disk_quota: 512M
+buildpack: https://github.com/cloudfoundry/python-buildpack.git
+services:
+  - uaa-lab
+env:
+  PREDIX_SECURITY_UAA_URI: https://lab-demo.predix-uaa.run.aws-usw02-pr.ice.predix.io
+  PREDIX_APP_CLIENT_ID: rest-client
+  PREDIX_APP_CLIENT_SECRET: rest-client

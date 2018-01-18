@@ -1,0 +1,36 @@
+debug: false
+
+server:
+  tomcat.max-threads: 10
+  compression:
+    enabled: true
+    mime-types: application/json,application/xml,text/html,text/xml,text/plain
+
+uaa:
+  tokenservices:
+    store-claims: true
+    trusted-issuer-ids-regex: ^${vcap.services.predix-uaa.credentials.issuerId}$
+
+security:
+  basic:
+    enabled: false
+
+cors:
+  corsControlMaxAge: 3600
+  corsControlAllowCredential: true
+  corsControlAllowHeaders: Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
+  corsControlExposeHeaders: Range
+  corsControlAllowOrigin: .*
+
+---
+
+spring:
+  profiles: dev
+  main:
+    banner-mode: off
+
+security:
+  ignored: /**
+
+debug: true
+

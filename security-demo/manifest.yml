@@ -1,0 +1,11 @@
+---
+applications:
+  - name: security-demo
+    random-route: true
+    memory: 512M
+    disk_quota: 512M
+    instances: 1
+    buildpack: java-buildpack
+    path: target/security-demo-0.0.1-SNAPSHOT.jar
+    services:
+        - uaa-lab

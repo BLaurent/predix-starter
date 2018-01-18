@@ -12,7 +12,7 @@ import java.util.Arrays;
 
 @Log
 @SpringBootApplication
-@ComponentScan(basePackages = {"com.ge.predix.web.cors"})
+@ComponentScan(basePackages = {"com.ge.predix.web.cors", "com.ge.digital.simplepredixservice"})
 public class SimplePredixServiceApplication {
 
     public static void main(String[] args) {

@@ -3,7 +3,6 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/predix-starter.iml" filepath="$PROJECT_DIR$/predix-starter.iml" />
-      <module fileurl="file://$PROJECT_DIR$/reactive-starter/reactive-starter.iml" filepath="$PROJECT_DIR$/reactive-starter/reactive-starter.iml" />
       <module fileurl="file://$PROJECT_DIR$/security-demo/security-demo.iml" filepath="$PROJECT_DIR$/security-demo/security-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/simple-predix-service/simple-predix-service.iml" filepath="$PROJECT_DIR$/simple-predix-service/simple-predix-service.iml" />
     </modules>

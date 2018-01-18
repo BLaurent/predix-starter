@@ -16,11 +16,12 @@ security:
     enabled: false
 
 cors:
-  corsControlMaxAge: 3600
-  corsControlAllowCredential: true
-  corsControlAllowHeaders: Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
-  corsControlExposeHeaders: Range
-  corsControlAllowOrigin: .*
+  xhr:
+    allowed:
+      uris: ^/v2/api-docs$
+      origins: ^.*\\.predix\\.io$
+      headers: Origin,Accept,X-Requested-With,Content-Type,Access-Control-Request-Method,Access-Control-Request-Headers,Authorization
+    controlmaxage: 3600
 
 ---
 

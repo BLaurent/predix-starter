@@ -4,6 +4,7 @@ import lombok.extern.java.Log;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertySource;
 
@@ -11,6 +12,7 @@ import java.util.Arrays;
 
 @Log
 @SpringBootApplication
+@ComponentScan(basePackages = {"com.ge.predix.web.cors"})
 public class SimplePredixServiceApplication {
 
     public static void main(String[] args) {

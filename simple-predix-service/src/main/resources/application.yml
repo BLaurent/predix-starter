@@ -9,7 +9,7 @@ server:
 uaa:
   tokenservices:
     store-claims: true
-    trusted-issuer-ids-regex: ^${vcap.services.predix-uaa.credentials.issuerId}$
+    trusted-issuer-ids-regex: ^${vcap.services.uaa-lab.credentials.issuerId}$
 
 security:
   basic:

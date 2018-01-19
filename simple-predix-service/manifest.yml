@@ -9,7 +9,10 @@ applications:
     path: target/simple-predix-service-0.0.1-SNAPSHOT.jar
     services:
       - uaa-lab
+      - timeseries-lab
     env:
       uaaClientId: rest-client
       uaaClientSecret: rest-client
+      tsClientId: timeseries-client
+      tsClientSecret: timeseries-client
       SPRING_PROFILES_ACTIVE: security

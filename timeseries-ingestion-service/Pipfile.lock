@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "b59db3f6049c3a0c1922264a826c89db10b99e90029cff207bf15e5958cde50c"
+            "sha256": "456bb82fc31f364c187d3cbc0335a451cf4454225f43a0d0fc90e0e67520534f"
         },
         "host-environment-markers": {
             "implementation_name": "cpython",
@@ -17,9 +17,7 @@
             "sys_platform": "darwin"
         },
         "pipfile-spec": 6,
-        "requires": {
-            "python_version": "3.6"
-        },
+        "requires": {},
         "sources": [
             {
                 "name": "pypi",
@@ -29,10 +27,6 @@
         ]
     },
     "default": {
-        "aniso8601": {
-            "hashes": [],
-            "version": "==2.0.0"
-        },
         "certifi": {
             "hashes": [],
             "version": "==2018.1.18"
@@ -48,22 +42,6 @@
         "flask": {
             "hashes": [],
             "version": "==0.12.2"
-        },
-        "flask-cors": {
-            "hashes": [],
-            "version": "==3.0.3"
-        },
-        "flask-restful": {
-            "hashes": [],
-            "version": "==0.3.6"
-        },
-        "flask-script": {
-            "hashes": [],
-            "version": "==2.0.6"
-        },
-        "gunicorn": {
-            "hashes": [],
-            "version": "==19.7.1"
         },
         "idna": {
             "hashes": [],
@@ -81,13 +59,21 @@
             "hashes": [],
             "version": "==1.0"
         },
-        "predix": {
-            "git": "https://github.com/BLaurent/predixpy.git",
-            "ref": "master"
-        },
-        "psycopg2": {
+        "numpy": {
             "hashes": [],
-            "version": "==2.7.3.2"
+            "version": "==1.14.0"
+        },
+        "pandas": {
+            "hashes": [],
+            "version": "==0.22.0"
+        },
+        "pypugjs": {
+            "hashes": [],
+            "version": "==5.1.0"
+        },
+        "python-dateutil": {
+            "hashes": [],
+            "version": "==2.6.1"
         },
         "pytz": {
             "hashes": [],
@@ -112,6 +98,10 @@
         "uuid": {
             "hashes": [],
             "version": "==1.30"
+        },
+        "websocket-client": {
+            "hashes": [],
+            "version": "==0.46.0"
         },
         "werkzeug": {
             "hashes": [],

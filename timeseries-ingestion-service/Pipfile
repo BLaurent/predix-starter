@@ -1,0 +1,21 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+uuid = "*"
+requests = "*"
+werkzeug = "*"
+pandas = "*"
+pyyaml = "*"
+websocket-client = "*"
+pypugjs = "*"
+
+
+[dev-packages]
+

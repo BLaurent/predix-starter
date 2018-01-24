@@ -13,6 +13,6 @@ applications:
     env:
       uaaClientId: rest-client
       uaaClientSecret: rest-client
-      tsClientId: timeseries-client
-      tsClientSecret: timeseries-client
+      tsClientId: timeseries-ingestion-service
+      tsClientSecret: timeseries-ingestion-service
       SPRING_PROFILES_ACTIVE: security

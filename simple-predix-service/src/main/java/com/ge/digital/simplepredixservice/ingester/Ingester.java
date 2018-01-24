@@ -115,4 +115,7 @@ public class Ingester {
         queue.pushDataPoint(new TaggedDataPoint(tag, new DataPoint(timeStamp, value)));
     }
 
+    public TenantContext getTenantContext() {
+        return tenantContext;
+    }
 }

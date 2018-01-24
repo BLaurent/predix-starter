@@ -32,11 +32,6 @@ public class PredixUtil {
     }
 
     private static int DEFAULT_INGEST_RATE = 1;
-    private static float DEFAULT_SAMPLE_RATE = 20000.0f;
-    private static int DEFAULT_POINTS_SECOND = 10;
-    private static int DEFAULT_SAVE_INTERVAL = 20;
-    private static double DEFAULT_NETWORK_RATE = 0.5;
-    private static boolean DEFAULT_DELETE_FILES = true;
     public static int INGEST_RATE = Integer.parseInt(getEnv("INGEST_RATE", DEFAULT_INGEST_RATE + ""));
 
 }

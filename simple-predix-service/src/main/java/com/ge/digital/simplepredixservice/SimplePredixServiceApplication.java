@@ -7,12 +7,14 @@ import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.context.annotation.ComponentScan;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertySource;
+import org.springframework.security.oauth2.config.annotation.web.configuration.EnableResourceServer;
 
 import java.util.Arrays;
 
 @Log
 @SpringBootApplication
 @ComponentScan(basePackages = {"com.ge.predix.web.cors", "com.ge.digital.simplepredixservice"})
+@EnableResourceServer
 public class SimplePredixServiceApplication {
 
     public static void main(String[] args) {

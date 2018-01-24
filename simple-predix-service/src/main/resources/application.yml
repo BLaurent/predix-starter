@@ -6,11 +6,6 @@ server:
     enabled: true
     mime-types: application/json,application/xml,text/html,text/xml,text/plain
 
-uaa:
-  tokenservices:
-    store-claims: true
-    trusted-issuer-ids-regex: ^${vcap.services.predix-uaa.credentials.issuerId}$
-
 security:
   basic:
     enabled: false

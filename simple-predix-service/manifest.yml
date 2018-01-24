@@ -12,4 +12,3 @@ applications:
     env:
       uaaClientId: rest-client
       uaaClientSecret: rest-client
-      SPRING_PROFILES_ACTIVE: security

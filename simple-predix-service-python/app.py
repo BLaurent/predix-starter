@@ -7,6 +7,7 @@ import logging
 import requests, requests.auth
 from resources import drones
 import predix.app
+from predix import config
 from flask_script import Manager, Server
 
 port = int(os.getenv("PORT", 8080))
@@ -19,12 +20,12 @@ app = Flask(__name__)
 app.register_blueprint(blueprint)
 manager = Manager(app)
 
-manifest = predix.app.Manifest('manifest-dup.yml')
+manifest = predix.app.Manifest()
 
 logging.basicConfig(level=logging.INFO)
 
-if 'VCAP_APPLICATION' in os.environ:
-    @app.before_request
+if config.is_cf_env():
+    # @app.before_request
     def before_request():
         logging.debug(request.headers.keys())
         logging.debug(request.endpoint)

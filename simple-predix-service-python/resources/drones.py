@@ -38,7 +38,6 @@ class DHandler(Resource):
                 filename = secure_filename(file.filename)
                 path = os.path.join(current_app.config['UPLOAD_FOLDER'], filename)
                 file.save(path)
-                self.bs.upload_file(path)
+                return self.bs.upload_file(path, file.filename), 200
             else:
-                print(file.filename + ' not ingested. File type not allowed.')
-        return {'hello': 'world'}, 200
+                return file.filename + ' not ingested. File type not allowed.'

@@ -1,0 +1,25 @@
+[
+  { "uri": "/manufacturers/GE",
+    "name": "General Electric Transportation",
+    "year_founded": "1892" ,
+    "hqLatLng":{"lat": 41.881138, "lng": -87.640666 }
+  },
+
+  {"uri": "/manufacturers/electro-motive-diesel",
+    "name": "Electro-Motive Diesel",
+    "year_founded": "1922",
+    "hqLatLng": {"lat": 41.798091, "lng": -87.849247}
+  },
+
+  {"uri": "/manufacturers/national-railway-equipment",
+    "name": "National Railway Equipment",
+    "year_founded": "1984",
+    "hqLatLng": {"lat": 41.515181 , "lng":-90.411707 }
+  },
+
+  {"uri": "/manufacturers/cummins",
+    "name": "Cummins",
+    "year_founded": "1919",
+    "hqLatLng": {"lat":39.204000, "lng": -85.922910}
+  }
+]

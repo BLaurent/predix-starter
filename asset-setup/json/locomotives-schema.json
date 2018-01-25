@@ -1,0 +1,85 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "uri",
+      "type",
+      "model",
+      "serial_no",
+      "emission_tier",
+      "fleet",
+      "manufacturer",
+      "engine",
+      "hqLatLng",
+      "parent",
+      "installedOn",
+      "dateIso"
+    ],
+    "properties": {
+      "uri": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "type": "string",
+        "minLength": 1
+      },
+      "model": {
+        "type": "string",
+        "minLength": 1
+      },
+      "serial_no": {
+        "type": "string",
+        "minLength": 1
+      },
+      "emission_tier": {
+        "type": "string",
+        "minLength": 1
+      },
+      "fleet": {
+        "type": "string",
+        "minLength": 1
+      },
+      "manufacturer": {
+        "type": "string",
+        "minLength": 1
+      },
+      "engine": {
+        "type": "string",
+        "minLength": 1
+      },
+      "hqLatLng": {
+        "type": "object",
+        "properties": {
+          "lat": {
+            "type": "number"
+          },
+          "lng": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "lat",
+          "lng"
+        ]
+      },
+      "parent": {
+        "type": "string",
+        "minLength": 1
+      },
+      "installedOn": {
+        "type": "string",
+        "minLength": 1
+      },
+      "dateIso": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

@@ -1,0 +1,119 @@
+[
+  {
+    "uri": "/fleets/up-1",
+    "name": "Union Pacific Fleet 1",
+    "customer": "/customers/union-pacific"
+  },
+  {
+    "uri": "/fleets/up-2",
+    "name": "Union Pacific Fleet 2",
+    "customer": "/customers/union-pacific"
+  },
+  {
+    "uri": "/fleets/up-3",
+    "name": "Union Pacific Fleet 3",
+    "customer": "/customers/union-pacific"
+  },
+  {
+    "uri": "/fleets/up-4",
+    "name": "Union Pacific Fleet 4",
+    "customer": "/customers/union-pacific"
+  }
+, {
+  "uri": "/fleets/up-5",
+  "name": "Union Pacific Fleet 5",
+  "customer": "/customers/union-pacific"
+},
+
+  {
+    "uri": "/fleets/bnsf-1",
+    "name": "Burlington Northern Fleet 1",
+    "customer": "/customers/burlington-northern-santa-fe"
+  },
+  {
+    "uri": "/fleets/bnsf-2",
+    "name": "Burlington Northern Fleet 2",
+    "customer": "/customers/burlington-northern-santa-fe"
+  },
+  {
+    "uri": "/fleets/bnsf-3",
+    "name": "Burlington Northern Fleet 3",
+    "customer": "/customers/burlington-northern-santa-fe"
+  },
+  {
+    "uri": "/fleets/bnsf-4",
+    "name": "Burlington Northern Fleet 4",
+    "customer": "/customers/burlington-northern-santa-fe"
+  },
+  {
+    "uri": "/fleets/bnsf-5",
+    "name": "Burlington Northern Fleet 5",
+    "customer": "/customers/burlington-northern-santa-fe"
+  },
+  {
+    "uri": "/fleets/csx-1",
+    "name": "CSX Fleet 1",
+    "customer": "/customers/csx"
+  },
+  {
+    "uri": "/fleets/csx-2",
+    "name": "CSX Fleet 2",
+    "customer": "/customers/csx"
+  },
+  {
+    "uri": "/fleets/csx-3",
+    "name": "CSX Fleet 3",
+    "customer": "/customers/csx"
+  },
+  {
+    "uri": "/fleets/ns-1",
+    "name": "Norfolk Southern Fleet 1",
+    "customer": "/customers/norfolk-southern"
+  },
+  {
+    "uri": "/fleets/ns-2",
+    "name": "Norfolk Southern Fleet 2",
+    "customer": "/customers/norfolk-southern"
+  },
+
+  {
+    "uri": "/fleets/cn-1",
+    "name": "Canadian National Fleet 1",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-2",
+    "name": "Canadian National Fleet 2",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-3",
+    "name": "Canadian National Fleet 3",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-4",
+    "name": "Canadian National Fleet 4",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-5",
+    "name": "Canadian National Fleet 5",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-6",
+    "name": "Canadian National Fleet 6",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-7",
+    "name": "Canadian National Fleet 7",
+    "customer": "/customers/canadian-national"
+  },
+  {
+    "uri": "/fleets/cn-8",
+    "name": "Canadian National Fleet 8",
+    "customer": "/customers/canadian-national"
+  }
+]

@@ -1,0 +1,49 @@
+{
+  "type": "array",
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "description": "",
+  "minItems": 1,
+  "uniqueItems": true,
+  "items": {
+    "type": "object",
+    "required": [
+      "uri",
+      "type",
+      "horsepower",
+      "stroke",
+      "bore",
+      "RPM",
+      "manufacturer"
+    ],
+    "properties": {
+      "uri": {
+        "type": "string",
+        "minLength": 1
+      },
+      "type": {
+        "type": "string",
+        "minLength": 1
+      },
+      "horsepower": {
+        "type": "string",
+        "minLength": 1
+      },
+      "stroke": {
+        "type": "string",
+        "minLength": 1
+      },
+      "bore": {
+        "type": "string",
+        "minLength": 1
+      },
+      "RPM": {
+        "type": "string",
+        "minLength": 1
+      },
+      "manufacturer": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

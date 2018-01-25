@@ -1,0 +1,789 @@
+[
+  {
+    "uri": "/engines/v12-1",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-2",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-3",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-4",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-5",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-6",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-7",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-8",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-9",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-10",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-11",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-12",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-13",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-14",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-15",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-16",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-17",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-18",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v12-19",
+    "type": "7FDL",
+    "horsepower": "4400",
+    "stroke": "230",
+    "bore": "220",
+    "RPM": "2400",
+    "manufacturer": "/manufacturers/GE"
+  },
+
+  {
+    "uri": "/engines/v16-1",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-2",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-3",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-4",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-5",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-6",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-7",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-8",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-9",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-10",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-11",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-12",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-13",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-14",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-15",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-16",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-17",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-18",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+  {
+    "uri": "/engines/v16-19",
+    "type": "7FD",
+    "horsepower": "4400",
+    "stroke": "210",
+    "bore": "220",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/GE"
+  },
+
+  {
+    "uri": "/engines/v16-2-1",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-2",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-3",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-4",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-5",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-6",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-7",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-8",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-9",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-10",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-11",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-12",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+  {
+    "uri": "/engines/v16-2-13",
+    "type": "710",
+    "horsepower": "4300",
+    "stroke": "250",
+    "bore": "200",
+    "RPM": "215",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+
+  {
+    "uri": "/engines/645",
+    "type": "7FDL",
+    "horsepower": "1500",
+    "stroke": "190",
+    "bore": "230",
+    "RPM": "900",
+    "manufacturer": "/manufacturers/electro-motive-diesel"
+  },
+
+  {
+    "uri": "/engines/QSK19-1",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-2",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-3",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-4",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-5",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-6",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-7",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-8",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-9",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-10",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-11",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-12",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-13",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-14",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-15",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-16",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-17",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },{
+  "uri": "/engines/QSK19-18",
+  "type": "Diesel",
+  "horsepower": "2100",
+  "stroke": "159",
+  "bore": "159",
+  "RPM": "800",
+  "manufacturer": "/manufacturers/cummins"
+},{
+  "uri": "/engines/QSK19-19",
+  "type": "Diesel",
+  "horsepower": "2100",
+  "stroke": "159",
+  "bore": "159",
+  "RPM": "800",
+  "manufacturer": "/manufacturers/cummins"
+},
+  {
+    "uri": "/engines/QSK19-20",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-21",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-22",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-23",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-24",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-25",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-26",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-27",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+  {
+    "uri": "/engines/QSK19-28",
+    "type": "Diesel",
+    "horsepower": "2100",
+    "stroke": "159",
+    "bore": "159",
+    "RPM": "800",
+    "manufacturer": "/manufacturers/cummins"
+  },
+
+
+  {
+    "uri": "/engines/v20-1",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-2",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-3",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-4",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-5",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-6",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  },
+  {
+    "uri": "/engines/v20-7",
+    "type": "7FDL",
+    "horsepower": "5000",
+    "stroke": "230",
+    "bore": "230",
+    "RPM": "650",
+    "manufacturer": "/manufacturers/national-railway-equipment"
+  }
+]

@@ -10,5 +10,5 @@ applications:
       - uaa-lab
       - timeseries-lab
     env:
-      PREDIX_APP_CLIENT_ID: timeseries-ingestion-service
-      PREDIX_APP_CLIENT_SECRET: timeseries-ingestion-service
+      PREDIX_APP_CLIENT_ID: rest-client
+      PREDIX_APP_CLIENT_SECRET: rest-client

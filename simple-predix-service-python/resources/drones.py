@@ -4,7 +4,7 @@ import predix.data.blobstore
 import logging
 import os
 from werkzeug.utils import secure_filename
-from datetime import date, datetime
+from datetime import datetime
 import json
 
 
@@ -15,7 +15,6 @@ class DateTimeEncoder(json.JSONEncoder):
     def default(self, o):
         if isinstance(o, datetime):
             return o.isoformat()
-
 
 class DHandler(Resource):
 

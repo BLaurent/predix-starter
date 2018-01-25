@@ -24,12 +24,13 @@ manifest = predix.app.Manifest()
 
 logging.basicConfig(level=logging.DEBUG)
 
+app.config['UPLOAD_FOLDER'] = os.getenv('UPLOAD_FOLDER', '/tmp')
+
 
 if config.is_cf_env():
     @app.before_request
     def before_request():
-        logging.debug(request.headers.keys())
-        logging.debug(request.endpoint)
+        logging.debug(request.headers)
         if 'Authorization' in request.headers.keys():
             logging.debug(request.headers['Authorization'][7:])
             if not authorized(request.headers['Authorization'][7:]):

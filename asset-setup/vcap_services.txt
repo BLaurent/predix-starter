@@ -2,13 +2,13 @@
   "predix-asset": [
    {
     "credentials": {
-     "instanceId": "8fd77b47-8efe-474d-9533-b5d0273b50bc",
-     "scriptEngine_uri": "https://8fd77b47-8efe-474d-9533-b5d0273b50bc.predix-script-engine.run.aws-usw02-pr.ice.predix.io",
+     "instanceId": "7fc350a6-7eb9-4877-b23c-fa2a7a05005e",
+     "scriptEngine_uri": "https://7fc350a6-7eb9-4877-b23c-fa2a7a05005e.predix-script-engine.run.aws-usw02-pr.ice.predix.io",
      "uri": "https://predix-asset.run.aws-usw02-pr.ice.predix.io",
      "zone": {
       "http-header-name": "Predix-Zone-Id",
-      "http-header-value": "8fd77b47-8efe-474d-9533-b5d0273b50bc",
-      "oauth-scope": "predix-asset.zones.8fd77b47-8efe-474d-9533-b5d0273b50bc.user"
+      "http-header-value": "7fc350a6-7eb9-4877-b23c-fa2a7a05005e",
+      "oauth-scope": "predix-asset.zones.7fc350a6-7eb9-4877-b23c-fa2a7a05005e.user"
      }
     },
     "label": "predix-asset",
@@ -20,42 +20,20 @@
     "volume_mounts": []
    }
   ],
-  "predix-blobstore": [
-   {
-    "credentials": {
-     "access_key_id": "AKIAJ7MOMIBVA5MMSFUQ",
-     "bucket_name": "bucket-2f260863-d236-4ed2-9952-c42523804578",
-     "host": "s3-us-west-2.amazonaws.com",
-     "secret_access_key": "yMPW1qLssEE7l+1aRtczIHYXyQfgg/uESbGs6k+8",
-     "url": "https://bucket-2f260863-d236-4ed2-9952-c42523804578.s3-us-west-2.amazonaws.com"
-    },
-    "label": "predix-blobstore",
-    "name": "blob-lab",
-    "plan": "Tiered",
-    "provider": null,
-    "syslog_drain_url": null,
-    "tags": [
-     "blobstore",
-     "blob-store",
-     "blob store"
-    ],
-    "volume_mounts": []
-   }
-  ],
   "predix-uaa": [
    {
     "credentials": {
-     "dashboardUrl": "https://uaa-dashboard.run.aws-usw02-pr.ice.predix.io/#/login/87c5df75-35ba-44a4-bd0d-8a5958117b68",
+     "dashboardUrl": "https://uaa-dashboard.run.aws-usw02-pr.ice.predix.io/#/login/c2f67189-600b-4ce5-a660-549793a0b75b",
      "issuerId": "https://uaa-bl.predix-uaa.run.aws-usw02-pr.ice.predix.io/oauth/token",
      "subdomain": "uaa-bl",
      "uri": "https://uaa-bl.predix-uaa.run.aws-usw02-pr.ice.predix.io",
      "zone": {
       "http-header-name": "X-Identity-Zone-Id",
-      "http-header-value": "87c5df75-35ba-44a4-bd0d-8a5958117b68"
+      "http-header-value": "c2f67189-600b-4ce5-a660-549793a0b75b"
      }
     },
     "label": "predix-uaa",
-    "name": "uaa-lab",
+    "name": "uaa-bl",
     "plan": "Free",
     "provider": null,
     "syslog_drain_url": null,

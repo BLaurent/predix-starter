@@ -1,0 +1,28 @@
+[[source]]
+
+url = "https://pypi.python.org/simple"
+verify_ssl = true
+name = "pypi"
+
+
+[packages]
+
+flask = "*"
+flask-cors = "*"
+flask-restful = "*"
+uuid = "*"
+werkzeug = "*"
+requests = "*"
+gunicorn = "*"
+flask-script = "*"
+predix = {git = "https://github.com/BLaurent/predixpy.git", ref = "master"}
+future = "*"
+
+
+[dev-packages]
+
+
+
+[requires]
+
+python_version = "3.6"

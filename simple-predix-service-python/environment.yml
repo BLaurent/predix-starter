@@ -1,0 +1,19 @@
+name: simple-predix-service-python
+dependencies:
+- flask
+- requests
+- pyyaml
+- flask-cors
+- gunicorn
+- pylint
+- pip
+- uuid
+- flask
+- werkzeug
+- psycopg2
+- scipy
+- scikit-learn
+- pip:
+  - predix==1.0.0rc1
+  - flask-restful
+  - pytesseract

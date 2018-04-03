@@ -1,0 +1,13 @@
+applications:
+  - name: timeseries-ingestion-service
+    buildpack: python_buildpack
+    memory: 4G
+    disk_quota: 2G
+    random-route: true
+    buildpack: https://github.com/cloudfoundry/python-buildpack.git
+    env:
+      CLIENT_ID: rest-client
+      CLIENT_SECRET: rest-client
+    services:
+      - uaa
+      - timeseries

@@ -9,7 +9,7 @@
     <packaging>pom</packaging>
 
     <modules>
-        <!--<module>reactive-starter</module>-->
+        <module>reactive-starter</module>
         <module>simple-predix-service</module>
         <module>security-demo</module>
     </modules>

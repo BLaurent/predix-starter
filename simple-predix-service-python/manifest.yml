@@ -3,19 +3,11 @@ applications:
   - name: simple-predix-service-python
     random-route: true
     timeout: 160
-    memory: 256M
-<<<<<<< HEAD
-    disk_quota: 512M
-    buildpack: https://github.com/cloudfoundry/python-buildpack.git
-    services:
-      - uaa-lab
-      - timeseries-lab
-=======
     disk_quota: 2G
     buildpack: https://github.com/cloudfoundry/multi-buildpack
     services:
       - uaa
->>>>>>> master
+      - timeseries
     env:
       PREDIX_APP_CLIENT_ID: rest-client
       PREDIX_APP_CLIENT_SECRET: rest-client

@@ -8,4 +8,4 @@ applications:
     buildpack: java-buildpack
     path: target/security-demo-0.0.1-SNAPSHOT.jar
     services:
-        - uaa-lab
+        - uaa

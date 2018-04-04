@@ -9,5 +9,10 @@ applications:
       CLIENT_ID: rest-client
       CLIENT_SECRET: rest-client
     services:
+<<<<<<< HEAD
       - uaa-lab
       - timeseries-lab
+=======
+      - uaa
+      - timeseries
+>>>>>>> master

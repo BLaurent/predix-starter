@@ -3,7 +3,6 @@ package com.ge.digital.securitydemo;
 import lombok.extern.java.Log;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.boot.autoconfigure.security.oauth2.client.EnableOAuth2Sso;
 import org.springframework.context.ConfigurableApplicationContext;
 import org.springframework.core.env.MutablePropertySources;
 import org.springframework.core.env.PropertySource;
@@ -12,7 +11,6 @@ import java.util.Arrays;
 
 @SpringBootApplication
 @Log
-@EnableOAuth2Sso
 public class SecurityDemoApplication {
 
     public static void main(String[] args) {

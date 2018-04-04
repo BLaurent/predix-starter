@@ -8,9 +8,7 @@ import requests, requests.auth
 from resources import drones
 import predix.app
 from predix import config
-from flask_script import Manager, Server
 
-port = int(os.getenv("PORT", 8080))
 blueprint = Blueprint('api_v1', __name__, static_folder='data')
 
 api = Api(blueprint, prefix="/api/v1")
@@ -18,12 +16,10 @@ api.add_resource(drones.DHandler, "/drones")
 
 app = Flask(__name__)
 app.register_blueprint(blueprint)
-manager = Manager(app)
 
 manifest = predix.app.Manifest()
 
 logging.basicConfig(level=logging.DEBUG)
-
 
 if config.is_cf_env():
     @app.before_request
@@ -49,7 +45,3 @@ if config.is_cf_env():
             return False
         else:
             return True
-
-if __name__ == '__main__':
-    manager.add_command("runserver", Server(port=port))
-    manager.run()

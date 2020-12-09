@@ -9,7 +9,7 @@ flask-script==2.0.6
 gunicorn==19.7.1 
 idna==2.6 
 itsdangerous==0.24 
-jinja2==2.10 
+jinja2==2.10.1 
 markupsafe==1.0 
 psycopg2==2.7.3.2 
 pytz==2017.3 

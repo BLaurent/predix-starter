@@ -16,7 +16,7 @@ pytz==2017.3
 pyyaml==3.12 
 requests==2.18.4 
 six==1.11.0 
-urllib3==1.22 
+urllib3==1.24.2 
 uuid==1.30 
 werkzeug==0.14.1 
 git+https://github.com/BLaurent/predixpy.git@master#egg=predix

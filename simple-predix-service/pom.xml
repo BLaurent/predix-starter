@@ -26,7 +26,7 @@
 		<timeseries-client.version>0.0.18</timeseries-client.version>
 		<predix-event-hub-sdk.version>1.2.11</predix-event-hub-sdk.version>
 		<uaa-token-lib.version>3.1.6</uaa-token-lib.version>
-		<aws-java-sdk-s3.version>1.11.225</aws-java-sdk-s3.version>
+		<aws-java-sdk-s3.version>1.12.261</aws-java-sdk-s3.version>
 		<springfox-swagger2.version>2.8.0</springfox-swagger2.version>
 	</properties>
 
